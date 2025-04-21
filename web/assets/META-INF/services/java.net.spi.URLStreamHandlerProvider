@@ -1,0 +1,8 @@
+dev.ultreon.quantum.client.uri.GdxAbsoluteUrlHandler
+dev.ultreon.quantum.client.uri.GdxClasspathUrlHandler
+dev.ultreon.quantum.client.uri.GdxExternalUrlHandler
+dev.ultreon.quantum.client.uri.GdxInternalUrlHandler
+dev.ultreon.quantum.client.uri.GdxLocalUrlHandler
+dev.ultreon.quantum.client.uri.MemoryUrlHandler
+dev.ultreon.quantum.client.uri.ResourceUrlHandler
+dev.ultreon.quantum.client.uri.DataUrlHandler
