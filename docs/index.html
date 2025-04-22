@@ -51,7 +51,7 @@
       }
     </style>
 </head>
-<body oncontextmenu="return false" onload="main()">
+<body oncontextmenu="return false">
 <div>
   <div id="progress">
     <img id="progress-img" src="startup-logo.png">
@@ -81,5 +81,8 @@
   setTimeout(barUpdater, delay);
 </script>
 <script type="text/javascript" charset="utf-8" src="teavm/app.js"></script>
+<script>
+    main(); // Why...
+</script>
 </body>
 </html>
