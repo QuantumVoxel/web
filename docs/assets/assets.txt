@@ -310,7 +310,7 @@ i:b:/assets/quantum/lang/en_ud.json:2835:1
 i:b:/assets/quantum/lang/el_gr.json:14815:1
 i:b:/assets/quantum/lang/it_it.json:2835:1
 i:b:/assets/quantum/lang/fi_fi.json:2835:1
-i:b:/assets/quantum/lang/en_us.json:17092:1
+i:b:/assets/quantum/lang/en_us.json:17211:1
 i:b:/assets/quantum/lang/hi_in.json:11295:1
 i:b:/assets/quantum/lang/af_za.json:11274:1
 i:b:/assets/quantum/lang/tlh_aa.json:2835:1
