@@ -4,3 +4,4 @@
 docs/teavm/src
 *.map
 *.teavmdbg
+*.teadbg
