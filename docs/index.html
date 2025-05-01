@@ -56,8 +56,8 @@
     console.error("window.location", window.location);
 
     // If not at /.proxy while domain ends with discordsays.com go to /.proxy
-    if (window.location.hostname.endsWith("discordsays.com") && !window.location.origin.endsWith("/.proxy")) {
-        window.location.origin += "/.proxy";
+    if (window.location.hostname.endsWith("discordsays.com") && !window.location.origin.endsWith("/.proxy/index.html")) {
+        window.location.origin += "/.proxy/index.html";
     }
 </script>
 <div>
