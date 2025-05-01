@@ -63,7 +63,12 @@
 </div>
 <script>
     async function start() {
-        let teavm = await TeaVM.wasmGC.load("teavm/app.js.wasm"); teavm.exports.main([]);
+        let teavm;
+        if (window.location.hostname.endsWith("discordsays.com")) {
+            teavm = await TeaVM.wasmGC.load(".proxy/teavm/app.js.wasm"); teavm.exports.main([]);
+        } else {
+            let teavm = await TeaVM.wasmGC.load("teavm/app.js.wasm"); teavm.exports.main([]);
+        }
     }
     var maxPercentage = 25;
     var delay = 500;
