@@ -20,6 +20,9 @@ i:d:/assets:0:1
 i:d:/assets/gdx:0:1
 i:b:/assets/gdx/icon.png:7642:1
 i:d:/assets/quantum:0:1
+i:d:/assets/quantum/music:0:1
+i:b:/assets/quantum/music/pixel_dreams.ogg:2200786:1
+i:b:/assets/quantum/music/pixel_memories.ogg:1760438:1
 i:d:/assets/quantum/textures:0:1
 i:d:/assets/quantum/textures/blocks:0:1
 i:b:/assets/quantum/textures/blocks/sandstone.png:5019:1
