@@ -52,14 +52,6 @@
     </style>
 </head>
 <body oncontextmenu="return false">
-<script>
-    console.error("window.location", window.location);
-
-    // If not at /.proxy while domain ends with discordsays.com go to /.proxy
-    if (window.location.hostname.endsWith("discordsays.com") && !window.location.pathname.endsWith("/.proxy/index.html")) {
-        window.location.pathname = "/.proxy/index.html";
-    }
-</script>
 <div>
     <div id="progress">
         <img id="progress-img" src="startup-logo.png">
