@@ -53,9 +53,12 @@
 </head>
 <body oncontextmenu="return false">
 <script>
+    console.log(window.location);
+
     // If not at /.proxy while domain ends with discordsays.com go to /.proxy
     if (window.location.hostname.endsWith("discordsays.com") && window.location.pathname !== "/.proxy") {
         window.location.href = "/.proxy";
+        return;
     }
 </script>
 <div>
