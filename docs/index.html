@@ -51,7 +51,7 @@
         }
     </style>
 </head>
-<body oncontextmenu="return false" onload="start()">
+<body oncontextmenu="return false">
 <div>
     <div id="progress">
         <img id="progress-img" src="startup-logo.png">
@@ -84,5 +84,8 @@
     setTimeout(barUpdater, delay);
 </script>
 <script type="text/javascript" charset="utf-8" src="teavm/wasm-gc-runtime.min.js"></script>
+<script>
+    start();
+</script>
 </body>
 </html>
